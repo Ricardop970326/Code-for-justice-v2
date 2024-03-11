@@ -1,0 +1,234 @@
+*{
+  list-style-type: none;
+}
+
+nav {
+  background-color:rgb(106, 149, 105);
+  }
+  .navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  }
+  
+  a {
+      text-decoration: none;
+      font-weight: bold;
+      font-family: serif;
+      color: white;
+      padding: 10px;
+  }
+  a:hover {
+      color:black;
+  }
+  
+
+  
+ #cutecouple{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:10px
+ }
+ #handsomeman{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:10px
+
+ }
+ #cutercouple{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:10px
+
+ }
+
+/* section{
+  margin-inline: 10px;
+  padding-left: 5%;
+  float: center;
+} */
+h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: var(--text-color)
+}
+
+
+.paragraph3{
+  border: 2px;
+  border-radius: 2px;
+}
+
+.boxed {
+  border: solid 2px black;
+  background-color: rgb(231, 242, 231);
+  box-shadow: 5px 10px rgb(120, 139, 117) ;
+  margin: 10px;
+}
+
+
+.boxed2{
+  border: solid 2px black;
+  background-color: rgb(231, 242, 231);
+  box-shadow: 5px 10px rgb(120, 139, 117) ;
+  margin: 10px;
+}
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 0fr);
+  margin: 4px;
+  
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  color: rgb(120, 139, 117);
+}
+
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  color: rgb(106, 149, 105);
+}
+
+h3{
+  color: var(--text-color);
+  /* color:white; */
+}
+
+h4{
+  text-align: center;
+  text-indent: 1px;
+  color: var(--text-color);
+}
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+  color: var(--text-color);
+
+}
+#stast{
+  border-radius: 10px;
+}
+
+image{
+  text-align: right;
+  border: none;
+  border-radius: 0;
+}
+
+
+footer {
+  background-color: rgb(106, 149, 105);
+  padding: 20px;
+}
+.icons{
+  display: flex;
+  justify-content:center;
+  margin-top: auto;
+}
+#left-words {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  padding-left: 30px;
+}
+.left {
+  justify-content: flex-start;
+  z-index: 1;
+}
+.left-icon {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 2;
+  padding-right: 350px;
+}
+#right-words {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  padding-left: 350px;
+}
+h3 {
+  display: flex;
+  position: relative;
+}
+.right {
+  justify-content: flex-end;
+  z-index: 1;
+}
+.right-form {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 2;
+  padding-right:50px;
+  padding-top: 20px;
+}
+
+
+.email {
+  border-radius: 8px;
+  border-color: rgb(106, 149, 105);
+  height: 20px;
+  padding-left: 5px;
+}
+
+#submit {
+  border-radius: 5px;
+  border-color: rgb(106, 149, 105);
+}
+#submit:hover {
+  box-shadow: 0 0 10px 0 black;
+}
+
+@media only screen and (min-width: 768px){}
+  h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+
+  }
+  @media only screen and (min-width: 412px) and (max-width: 915px){
+  h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+  }
+}
+
+  
+
+ 
+
+  div .elder-people{
+    width: 100vh;
+    background-color: rgb(207, 212, 201);
+}
+
+#logotac{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 83.77px;
+}
+
+
+.logos {
+    width: 100px auto; 
+    height: 100px; 
+    align-items: right;
+    margin: 36px;
+}

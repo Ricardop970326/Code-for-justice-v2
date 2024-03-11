@@ -1,0 +1,169 @@
+
+main {
+
+    flex-wrap: wrap;
+
+  }
+
+  #logotac{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100px;
+      height: 83.77px;
+  }
+ 
+ .banner {
+   height: 350px;
+   width: 700px;
+   display: flex;
+
+ }
+
+.ms {
+   display: flex;
+   justify-content: center; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: 40px;
+   font-weight: 5px;
+}
+
+ .container{
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 50px;
+        text-shadow: 2px 2px 4px rgb(67, 66, 66);
+
+
+ }
+ .mission-state{
+  border-radius: 10px;
+  color: var(--text-color);
+  background-color: var(--nav-color);
+  box-shadow: 5px 7px 7px rgb(67, 66, 66);
+   display:flex;
+   flex-direction: column;
+   width:600px;
+   border: solid 2px ;
+
+  }
+
+.img-cont{
+
+   display: flex;
+   justify-content: center;
+}
+ .greenback {
+   background-color:rgb(106, 149, 105);
+ }
+
+ .img-one {
+  border-radius: 10px;
+   height: 300px;
+   width: 400px;
+   margin-left: 50px;
+   border-radius: 2px;
+ }
+ .img-two {
+  height: 300px;
+  width: 400px;
+  margin-right: 50px;
+  border-radius: 2px;
+}
+.statement {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+ }
+
+ 
+ .grid-container {
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 1px;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px black;
+  padding: 40px;
+  background-color: var(--nav-color);
+  box-shadow: 5px 10px rgb(98, 100, 98) ;
+ }
+
+ .item-1 {
+  width: 300px;
+ }
+
+ .item-2 {
+  width: 300px;
+ }
+ .item-3 {
+  width: 300px;
+ }
+
+
+h3{
+
+ 
+}
+p {
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 10px;
+  color: var(--text-color);
+  margin-bottom: 100px;
+}
+.gallery {
+  height: 70vh;
+}
+
+
+
+.containertwo{
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: center;
+  gap: -20px;
+ 
+}
+
+.box {
+align-items: center;  height: 500px;
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.box a:hover {
+  cursor: pointer;
+}
+.img-head {
+  width:300px;
+  height:350px;
+}
+
+
+.main-head {
+  color: var(--text-color);
+  background-color: var(--nav-color);
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  box-shadow: 5px 7px 7px rgb(67, 66, 66);
+
+}
+
+#elderpeople{
+  height: 300px;
+  width: 100%;
+  opacity: 60%;
+  background-color: rgb(207, 212, 201);
+}

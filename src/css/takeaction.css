@@ -1,0 +1,630 @@
+
+
+div .elder-people{
+    width: 100vh;
+    background-color: rgb(207, 212, 201);
+}
+
+
+#logotac{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 83.77px;
+}
+
+#elderpeople{
+    height: 300px;
+    width: 100%;
+    opacity: 60%;
+    background-color: rgb(207, 212, 201);
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgb(67, 66, 66);
+
+    letter-spacing: 10px;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(67, 66, 66);
+    letter-spacing: 10px;
+    font-size: 1.5rem;
+    color: var(--text-color) !important;
+}
+
+p{
+    margin: 20px;
+
+}
+#arrows{
+    height: 30px;
+    width: 30px;
+}
+
+.main_square_cont{
+    position: relative;
+    height: 550px;
+    width: 690px;
+    left: 30%; 
+}
+
+
+.slide_cont{ 
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    background-color: var(--nav-color);
+    border:2px solid ;
+    border-radius: 10px; 
+   
+}
+
+.galery_track-container{
+    padding: 10px;
+    height: 65%;
+    position: relative;
+    overflow: hidden;
+    margin: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+
+.galery_track{
+    margin: 0;
+    padding: 0;
+   list-style: none;
+   position: relative;
+   height: 100%;
+   transition: transform 250ms ease-in;
+   
+}
+
+.slide_galery{
+    position: absolute;
+    top: 0;
+   bottom: 0px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.join-button{
+    /* padding: 20px; */
+    border-radius: 25px;
+    color: var(--text-color);
+    background-color: var(--nav-color);
+    border: 2px solid;
+    box-shadow: 5px 7px 7px rgb(67, 66, 66);
+    margin-top: 50px;
+}
+
+.join-button:hover{
+  
+    color: black;
+    background: whitesmoke ;
+    border: whitesmoke;
+    cursor: pointer;
+}
+
+.galery_button{
+    position: absolute;
+    left: 0.5%;
+    top: 55vh;
+    transform: translateY(-40%);
+    background: transparent;
+    border: 0;
+    cursor: pointer; 
+}
+
+.galery_button--left{
+    position: absolute;
+    left: 57px;
+}
+
+.galery_button--right{
+    right:-270px;
+    left: 147px;
+    margin-left: 20vh;
+    padding-right: 0;
+}
+
+.galery_button img{
+    width: 12px;  
+}
+
+.galery_nav{
+    position: absolute;
+    left: 31%;
+    bottom: 155px;
+    padding: 5px;
+    margin: 0 10px 20px 90px;
+}
+
+.nav_indicator{
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgb(211, 210, 210) ;
+    margin-left: 1px ;
+    cursor: pointer;
+}
+
+.nav_indicator.current-slide{
+    background: rgb(0, 0, 0,.75);
+}
+
+.is-hidden {
+    display: none;
+}
+
+.postelder{
+height: 200px;
+width: 300px;
+border-radius: 50%;
+}
+
+.postelder:hover{
+    border:solid rgb(1, 1, 1);
+    height: 210px;
+width: 310px;
+}
+
+#secondpic{
+    background: white;
+}
+
+.elder-pics {
+    color: var(--text-color);
+
+    background-color: var(--nav-color);
+    border: 2px solid;
+    box-shadow: 5px 7px 7px rgb(67, 66, 66);
+    border-radius: 10px;
+        height: 100px;
+        width: 99.6%;
+        margin-top: 20px ;
+        margin-bottom: 70px;
+        padding-top: 12.5px;
+        padding-bottom: 74px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;   
+}
+
+#photoelder{
+    width: 215px;
+    height: 158px;
+    padding: 0 20px 0 30px;
+}
+
+#photoelder:hover{
+    width: 257px;
+    height: 160px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 300px) and (max-width:480px) {
+
+    header nav {
+        width: 100%;
+    }
+
+    #logotac{
+        width: 60px;
+        height: 60px;
+    }
+
+    #elderpeople{
+        width: 100%;
+    }
+
+    .navbar{
+        font-size: 11.5px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .main_square_cont{
+        left: 2%;
+        width: 360px;
+        height: 500px;
+    }
+
+    .slide_cont{
+        font-size: 15px;
+    }
+
+    .join-button{
+        margin-top: -20px;
+    }
+
+    .galery_button{
+        left: 1vh;
+        top: 42vh;
+ 
+    }
+    
+    .galery_button--left{
+        position: absolute;
+        left: 40px;
+    }
+    
+    .galery_button--right{
+        right:5px;
+        left: 79px;
+        margin-left: 20vh;
+        padding-right: 0;
+    }
+
+    .galery_nav{
+        position: absolute;
+        left: 11%;
+        bottom: 110px;
+    }
+
+    .pic-elder{
+        display: none;
+    }
+
+    .pic-elder2{
+        display: none;
+    }
+
+    .elder-pics{
+        display: none;
+    }
+
+    .left-icon{
+        padding-right: 10px;
+    }
+
+    .right{
+      display: none;    
+    }
+    .right-form{
+        display: none;
+    }
+}
+
+@media all and (min-width: 481px) and (max-width:630px){
+    
+   
+    #logotac{
+        width: 60px;
+        height: 60px;
+    }
+
+    #elderpeople{
+        width: 100%;
+    }
+
+    .navbar{
+        font-size: 11.5px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .main_square_cont{
+        left: 15%;
+        width: 370px;
+        height: 575px;
+    }
+
+    .galery_button{
+        left: 1vh;
+        top: 49vh;
+    }
+
+    .join-button{
+        margin-top: 13px;
+    }
+    
+    .galery_button--left{
+        position: absolute;
+        left: 55px;
+    }
+    
+    .galery_button--right{
+        right:5px;
+        left: 79px;
+        margin-left: 20vh;
+        padding-right: 0;
+    }
+
+    .galery_nav{
+        position: absolute;
+        left: 12%;
+        bottom: 124px;
+    }
+
+    .pic-elder{
+        display: none;
+    }
+
+    .picsize{
+        display: none;
+    }
+
+   
+    #photoelder{
+        padding-top: 20px;
+        width: 97px;
+        height: 97px; 
+    }
+
+    #photoelder:hover{
+        width: 99px;
+        height: 99px; 
+        cursor: pointer;
+    }
+
+    .left-icon{
+        padding-right: 10px;
+    }
+
+    .right{
+      display: none;    
+    }
+    .right-form{
+        display: none;
+    }
+
+
+}
+
+@media all and (min-width: 631px) and (max-width:768px){
+    
+   
+    #logotac{
+        width: 60px;
+        height: 60px;
+    }
+
+    #elderpeople{
+        width: 100%;
+    }
+
+    .navbar{
+        font-size: 11.5px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .main_square_cont{
+        left: 15%;
+        width: 370px;
+        height: 575px;
+    }
+
+    .galery_button{
+        left: 1vh;
+        top: 49vh;
+    }
+
+    .join-button{
+        margin-top: 13px;
+    }
+    
+    .galery_button--left{
+        position: absolute;
+        left: 55px;
+    }
+    
+    .galery_button--right{
+        right:5px;
+        left: 79px;
+        margin-left: 20vh;
+        padding-right: 0;
+    }
+
+    .galery_nav{
+        position: absolute;
+        left: 12%;
+        bottom: 124px;
+    }
+
+    .pic-elder{
+        display: none;
+    }
+
+    .picsize{
+        display: none;
+    }
+
+   
+    #photoelder{
+        padding-top: 20px;
+        width: 147px;
+        height: 125px; 
+    }
+
+    #photoelder:hover{
+        width: 150px;
+        height: 128px; 
+        cursor: pointer;
+    }
+
+    .left-icon{
+        padding-right: 10px;
+    }
+
+    .right{
+      display: none;    
+    }
+    .right-form{
+        display: none;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width:1024px){
+    #logotac{
+        width: 60px;
+        height: 60px;
+    }
+
+    #elderpeople{
+        width: 100%;
+    }
+
+    .navbar{
+        font-size: 11.5px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .main_square_cont{
+        left: 25%;
+        width: 486px;
+        height: 580px;
+    }
+
+    .galery_button{
+        left: 1vh;
+        top: 49vh;
+    }
+
+    .join-button{
+        margin-top: 26px;
+        padding: 20px;
+    }
+    
+    .galery_button--left{
+        position: absolute;
+        left: 62px;
+    }
+    
+    .galery_button--right{
+        right: 5px;
+        left: 188px;
+        margin-left: 20vh;
+        padding-right: 0;
+    }
+
+    .galery_nav{
+        position: absolute;
+        left: 23%;
+        bottom: 124px;
+    }
+
+    .pic-elder{
+        display: none;
+    }
+
+    #photoelder{
+        padding-top: 17px;
+        width: 98px;
+        height: 115px; 
+    }
+
+    #photoelder:hover{
+        width: 101px;
+        height: 118px; 
+        cursor: pointer;
+    }
+
+    .left-icon{
+        padding-right: 10px;
+    }
+
+    .right{
+      display: none;    
+    }
+    .right-form{
+        display: none;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width:1362px){
+
+    .main_square_cont{
+        left: 24%;
+        width: 601px;
+        height: 580px;
+    }
+
+    .galery_button{
+        left: 1vh;
+        top: 55vh;
+    }
+
+    .join-button{
+        margin-top: 30px;
+        padding: 20px;
+    }
+    
+    .galery_button--left{
+        position: absolute;
+        left: 77px;
+    }
+    
+    .galery_button--right{
+        right: 5px;
+        left: 188px;
+        margin-left: 36vh;
+        padding-right: 0;
+    }
+
+    .galery_nav{
+        position: absolute;
+        left: 28%;
+        bottom: 166px;
+    }
+ 
+    #photoelder{
+        padding-top: 13px;
+        width: 143px;
+        height: 140px; 
+    }
+
+
+    #photoelder:hover{
+        width: 146px;
+        height: 143px; 
+        cursor: pointer;
+    }
+}

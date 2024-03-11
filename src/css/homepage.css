@@ -1,0 +1,308 @@
+    
+    body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+    main {
+        flex-grow: 1;
+    }
+
+    
+    ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
+    .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family: serif;
+        color: white;
+        padding: 10px;
+    }
+
+    a:hover {
+        color:black;
+    }
+
+   
+
+
+
+    #old {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 47%;
+    }
+
+    .old-picture {
+        background-color: rgb(207, 212, 201);
+        display: flex;
+        justify-content: inline-block;
+    }   
+
+    h1 {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    h4{
+        color: var(--text-color);
+
+    }
+
+    #logo {
+        position: absolute;
+        top: 0.5%;
+    }
+
+
+    .fun-facts {
+        color: var(--text-color);
+        background-color: var(--nav-color);
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-evenly;
+        font-family:'Times New Roman', Times, serif;
+        border-radius: 10px;
+        border-width: 2px;
+        border-style: solid;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        font-size: 18px;
+        box-shadow: 5px 7px 7px rgb(67, 66, 66);
+
+    }
+
+    #fact1 {
+        color: var(--text-color);
+        background-color: var(--nav-color);
+        border-radius: 10px;
+        border-style: solid;
+        padding: 15px;
+        text-align: center;
+        border-width: 2px;
+        box-shadow: 5px 7px 7px rgb(67, 66, 66);
+        padding-top: 22px;
+    
+    }
+
+    #fact2 {
+        color: var(--text-color);
+        background-color: var(--nav-color);
+        border-radius: 10px;
+        border-style: solid;
+        padding: 15px;
+        text-align: center;
+        border-width: 2px;
+        box-shadow: 5px 10px grey;
+        padding-top: 25px;
+        box-shadow: 5px 7px 7px rgb(67, 66, 66);
+
+    }
+
+    #fact3 {
+        color: var(--text-color);
+        background-color: var(--nav-color);
+        border-radius: 10px;
+        border-style: solid;
+        padding: 10px;
+        text-align: center;
+        border-width: 2px;
+        box-shadow: 5px 7px 7px rgb(67, 66, 66);
+
+    }
+
+    #DBG {
+        color: var(--text-color);
+        letter-spacing: 10px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #DBG2 {
+        color: var(--text-color);
+        letter-spacing: 10px;
+        text-align: center;
+    }
+
+    #paragraph {
+        color: var(--text-color);
+        background-color: var(--nav-color);
+        text-align: center;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        box-shadow: 5px 7px 7px rgb(67, 66, 66);
+        padding: 25px;
+        font-size: 22px;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    #people-phones {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 60px;
+    }
+    
+    .old-phones {
+        border-width: 2px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: rgb(176, 175, 175);
+        
+    }
+
+    #bottom-box {
+        padding-bottom: 20px;
+    }
+
+    @media (max-width: 768px) {
+
+        header {
+            padding: 3px;
+            max-width: 100%;
+          }
+        
+          .old-picture {
+            flex-direction: column;
+          }
+  
+          #old {
+              max-width: 50%;
+          }
+  
+          #logo {
+              max-width: 15%;
+              position: absolute;
+              top: 1.25%;
+          }  
+        
+        #people-phones {
+            display: list-item;
+            padding: 0px;
+            margin-left: 70px;
+            list-style: none;
+           
+        }
+
+        #third-pic {
+            margin-left: 160px;
+        }
+
+        #second-pic {
+            margin: 15px;
+        }
+
+        #first-pic {
+            margin: 5px;
+        }
+        
+    }
+
+    @media (min-width: 321px) and (max-width: 708px) {
+
+        .fun-facts {
+            display:list-item;
+            list-style: none;
+        }
+
+        #people-phones img {
+            display: none;
+        }
+
+        #people-phones img:first-child {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+  
+    @media (max-width: 320px) {
+        
+        header {
+          padding: 3px;
+          max-width: 100%;
+        }
+      
+        .old-picture {
+          flex-direction: column;
+        }
+
+        #old {
+            max-width: 50%;
+        }
+
+        #logo {
+            max-width: 15%;
+            position: absolute;
+            top: 1.25%;
+        }
+
+        .navbar {
+            padding: 3px;
+          }
+    
+        .navbar li {
+            margin: 3px 0;
+            text-align: center;
+            font-size: 8px;
+          }
+
+        #DBG {
+            font-size: 39px;
+            text-align: center;
+        }
+
+        .fun-facts {
+            display:list-item;
+            list-style: none;
+        }
+
+        #people-phones {
+            display: none;
+        }
+
+        #left-words {
+            display: none;
+        }
+
+        .left-icon {
+            padding-left: 30px;
+        }
+    
+    }
+
+
+div .elder-people{
+    width: 100vh;
+    background-color: rgb(207, 212, 201);
+}
+
+#logotac{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 83.77px;
+}
+
+
+#elderpeople{
+    height: 300px;
+    width: 100%;
+    opacity: 60%;
+    background-color: rgb(207, 212, 201);
+}
